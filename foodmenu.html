@@ -1,0 +1,67 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: darkgray;
+        padding: 20px;
+    }
+    h1{
+        text-align: center;
+        color: blue;
+    }
+    .intro{
+        color: darkmagenta;
+        font-size: 18px;
+    }
+    ul{
+        width: 250px;
+    }
+    li{
+        padding: 8px;
+    }
+    li:nth-child(3){
+        background-color: cornsilk;
+        font-weight: bold;
+        color: red;
+    }
+    .description::first-letter
+    {
+        font-size: 40px;
+        color: black;
+        font-weight: bold;
+    }
+    button{
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        background-color: coral;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: purple;
+        box-shadow: 0px 0px 15px red;
+    }
+</style>
+<body>
+    <h1>Food Menu</h1>
+    <p class="intro">Welcome to our restuarant! We offer a variety of tasty appetizers, entrees, and deserts. We specialize in Indian food.</p>
+    <h2>Today's Special Menu</h2>
+    <ul>
+        <li>Palak Paneer</li>
+        <li>Mutton Biryani</li>
+        <li>Chole and Kulche</li>
+        <li>Butter Chicken</li>
+    </ul>
+    <p class="description">At our five star resturant we ensure amazing quality food and service. Our servers are very friendly and quick.</p>
+    <button>Order now</button>
+    <button>View Menu</button>
+</body>
+</html>
